@@ -1,0 +1,202 @@
+/************************************************
+Nuovecode: stili custom per giocattoliitaliani.it
+*************************************************/
+
+/*general*/
+
+body{color: #666666;}
+
+li {list-style: none;}
+
+a {color: #7b7b7b; text-decoration: underline;}
+
+.clear {clear: both; margin: 0; padding: 0;}
+
+
+@font-face {
+    font-family: 'winterthurcondensedregular';
+    src: url('winterthurcondensed-webfont.eot');
+    src: url('winterthurcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('winterthurcondensed-webfont.woff') format('woff'),
+         url('winterthurcondensed-webfont.ttf') format('truetype'),
+         url('winterthurcondensed-webfont.svg#winterthurcondensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*layout*/
+
+.main {
+    margin: 0 0 10px 0;
+    }
+
+.col2-right-layout .std ul { padding: 0;}
+.col2-right-layout .products-grid {
+     width: 800px;
+     margin: 0 auto;
+     }
+
+.col2-right-layout .col-main {
+     padding: 0 !important;
+     width: 800px !important;
+     text-align: center;
+     }
+
+.col2-right-layout .col-right {
+    width: 197px !important;
+    padding: 0;
+    }
+
+
+.page,
+.nav-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    }
+
+/* ==== HEADER ====*/
+
+.header {
+   border: medium none;
+   padding: 10px;
+   position: relative;
+   }
+
+
+/* ==== RIGHT COL ====*/
+
+.col-right {border: none;}
+
+.block-difference-menu {padding: 15px 0px 20px 5px;}
+.block-difference-menu ul{}
+
+.block-difference-menu li {
+         font-size: 15px;
+         line-height: 2;
+         padding: 2px 0 2px 55px;
+         }
+
+/* ==== CATALOG VIEW GRID====== */
+
+ul.products-grid.first.odd{border-top: 1px solid #ddd;}
+.products-grid li.item {
+    height: 180px !important;
+    padding: 0 !important;
+    width: 199px;
+    border-left: 1px solid #DDDDDD; 
+    }
+
+.products-grid li.first {
+    border: none !important;
+    }
+    
+.products-grid p {padding: 0 !important; color: #fff !important;}
+li.last{border-right: none !important;}
+.col-main{padding:0 !important;}
+.cms-home .col1-layout .products-grid{width:1000px; padding:0; margin:0;}
+.std p{margin:0 !important;}
+.products-grid{height:180px;}
+
+h2.product-name a{   
+      color: #666;
+      line-height: 1.2;
+      text-decoration: none;}
+      
+h2.product-name a:hover{color: #309535;}
+
+.actions-hover{display:none;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 180px;
+    text-align: left;
+    width: 199px;
+    z-index: 999;}	
+    
+.actions-hover p span{color: #79dd2c;}
+
+.products-grid .product-name {
+    margin: 4px 0 0px;
+    font-weight: bold !important;
+    font-size: 15px;
+    font-family: 'winterthurcondensedregular';
+}
+
+.products-grid .in-stock {
+    background: none repeat scroll 0 0 #309534;
+    height: 160px;
+    padding: 10px;
+    width: 179px;
+	position: relative;
+}	
+.products-grid .in-stock .price-label{float:left; margin-right:5px;}
+.products-grid .in-stock .price-box {
+    position:static !important;
+	color:#ffb619;
+}
+.in-stock .price-box {
+    color: #FFB619;
+    line-height: 0.7;
+    position: static !important;
+}
+.in-stock .btn-cart {
+    background: url("../images/cart.jpg") no-repeat scroll 0 0 transparent !important;
+    bottom: 10px;
+    clear: both;
+    padding-left: 15px;
+    padding-top: 3px;
+    position: absolute;
+    right: 5px;
+}
+.out-stock{height: 160px;
+		   width: 179px;
+		   padding: 10px;
+		   background:#dd2426;}		
+.product-name-hover a{font-size: 17px; color:#fff !important; text-decoration:none; margin-bottom:40px; font-family: 'winterthurcondensedregular';}
+	
+.product-name-hover a:hover{color:#FFB619 !important;}	
+.products-grid .product-name-hover {
+         color: #FFFFFF;
+         margin: 0 0 18px;
+         font-size: 14px;
+         text-align: center;
+         }
+         
+.availability.out-of-stock span {
+    color: #FFB619;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.in-stock .btn-cart span{font-weight:normal;}		
+.in-stock .btn-cart span:hover{color:#ffb619 !important;}					 
+.products-grid-info {
+    height: 170px;
+    padding: 5px;
+	position: relative;
+}
+
+.availability.out-of-stock span {color: #ffb619;}
+.products-grid .availability {text-align: center;}
+.products-grid .price-box {
+    bottom: 2px;
+    left: 12px;
+    position: absolute;
+}
+button.button span {
+    background: none !important;
+    color: #FFFFFF;
+    float: left;
+    font: bold 12px/21px Arial,Helvetica,sans-serif;
+    height: 21px;
+    padding: 0 0 0 8px;
+    text-align: center;
+    white-space: nowrap;
+}
+.products-grid .product-name-hover {
+color: #FFFFFF !important;
+margin: 0 0 18px;
+font-weight: normal !important;
+}
+
