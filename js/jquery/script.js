@@ -11,12 +11,5 @@ jQuery(document).ready(function(){
 		jQuery(this).find('.actions-hover').hide();
 		jQuery(this).find('.products-grid-info').show();
     }); 
-	//top menù
-	jQuery('.padre').click(function() {
-	    jQuery(this).find('.sub-blocco-menu').fadeIn();	
-    });
-	jQuery('.padre').mouseleave(function() {
-	    jQuery(this).find('.sub-blocco-menu').hide();	
-    });
 });
 
